@@ -39,4 +39,5 @@
 
 
 #### Solidity natspec comments 
-        https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjM3Mi7oIj8AhWh9XMBHYHHCcoQFnoECBEQAQ&url=https%3A%2F%2Fdocs.soliditylang.org%2Fen%2Fdevelop%2Fnatspec-format.html&usg=AOvVaw1GFdpSAg97jUyLqjEdpZpc
+        https://docs.soliditylang.org/en/v0.8.16/natspec-
+        

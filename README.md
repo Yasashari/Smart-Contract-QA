@@ -49,5 +49,11 @@
         /// @audit Missing: '@return'
 
         693:      function tokenURI(uint256 gobblerId) public view virtual override returns (string memory) {
+        
+#### NOT USING THE NAMED RETURN VARIABLES ANYWHERE IN THE FUNCTION IS CONFUSING
+
+        File: src/utils/token/GobblersERC1155B.sol
+        /// @audit owner
+        55:       function ownerOf(uint256 id) public view virtual returns (address owner) {
 
         

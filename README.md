@@ -39,6 +39,4 @@
 
 
 #### Solidity natspec comments 
-https://docs.soliditylang.org/en/v0.8.16/natspecformat.html#:~:text=Solidity%20contracts%20can%20use%20a,Language%20Specification%20Format%20(NatSpec).&text=NatSpec%20was%20inspired%20by%20Doxygen.
-        
-
+        https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjM3Mi7oIj8AhWh9XMBHYHHCcoQFnoECBEQAQ&url=https%3A%2F%2Fdocs.soliditylang.org%2Fen%2Fdevelop%2Fnatspec-format.html&usg=AOvVaw1GFdpSAg97jUyLqjEdpZpc

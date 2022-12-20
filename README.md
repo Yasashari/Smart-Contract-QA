@@ -39,5 +39,5 @@
 
 
 #### Solidity natspec comments 
-        https://docs.soliditylang.org/en/v0.8.16/natspec-
+        https://docs.soliditylang.org/en/v0.8.16/natspec-format.html
         

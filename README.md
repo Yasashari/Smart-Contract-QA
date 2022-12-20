@@ -40,4 +40,14 @@
 
 #### Solidity natspec comments 
         https://docs.soliditylang.org/en/v0.8.16/natspec-format.html
+ 
+#### NATSPEC IS INCOMPLETE
+        /// @audit Missing: '@param bytes32'
+        
+       546:      function acceptRandomSeed(bytes32, uint256 randomness) external {
+       
+        /// @audit Missing: '@return'
+
+        693:      function tokenURI(uint256 gobblerId) public view virtual override returns (string memory) {
+
         

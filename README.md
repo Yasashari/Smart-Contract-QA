@@ -38,6 +38,8 @@
     53    function minter_burn_from(address b_address, uint256 b_amount) public onlyMinters {
     
           https://docs.soliditylang.org/en/v0.8.15/style-guide.html#order-of-functions
+          
+          https://www.notion.so/Solidity-Style-44daebebfbd645b0b9cbad7075ba42fe
 
 
 #### Solidity natspec comments 

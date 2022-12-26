@@ -36,6 +36,8 @@
 
     26    address _timelock_address,
     53    function minter_burn_from(address b_address, uint256 b_amount) public onlyMinters {
+    
+          https://docs.soliditylang.org/en/v0.8.15/style-guide.html#order-of-functions
 
 
 #### Solidity natspec comments 

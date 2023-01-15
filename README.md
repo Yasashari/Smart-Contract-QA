@@ -71,5 +71,14 @@
 Even though assembly code was used for gas optimization, it reduces the readability (and future updatability) of the code.
 https://code4rena.com/reports/2022-07-fractional#n-04-assembly-within-supplysol-and-transfersol
 
+#### Code does not follow the checks-effects-interactions pattern
+     Eventhough it doesn't have the opportunity for reentrancy here, the best coding practice is to follow the check-effects-interaction pattern
+
+    There is 1 instance of this issue:
+
+    File: src/FERC1155.sol
+
+    85           _mint(_to, _id, _amount, _data);
+    86:          totalSupply[_id] += _amount;
 
         

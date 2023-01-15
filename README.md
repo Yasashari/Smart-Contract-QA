@@ -59,5 +59,17 @@
         File: src/utils/token/GobblersERC1155B.sol
         /// @audit owner
         55:       function ownerOf(uint256 id) public view virtual returns (address owner) {
+        
+#### STATE VARIABLE VISIBILITY IS NOT SET
+        address immutable token;
+
+#### INCORRECT COMMENTS
+#### USE MODIFIER FOR BETTER READABILITY AND CODE REUSE
+        https://code4rena.com/reports/2022-07-fractional#n-03-use-modifier-for-better-readability-and-code-reuse
+
+#### Not to use Assembly
+Even though assembly code was used for gas optimization, it reduces the readability (and future updatability) of the code.
+https://code4rena.com/reports/2022-07-fractional#n-04-assembly-within-supplysol-and-transfersol
+
 
         

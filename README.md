@@ -80,5 +80,12 @@ https://code4rena.com/reports/2022-07-fractional#n-04-assembly-within-supplysol-
 
     85           _mint(_to, _id, _amount, _data);
     86:          totalSupply[_id] += _amount;
+    
+#### constants should be defined rather than using magic numbers
+
+    https://github.com/code-423n4/2022-07-fractional/blob/e2c5a962a94106f9495eb96769d7f60f7d5b14c9/src/modules/Migration.sol#L199
+    
+    For more read....
+        https://github.com/code-423n4/2022-07-fractional-findings/issues/506
 
         
